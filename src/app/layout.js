@@ -1,12 +1,12 @@
 export const metadata = {
-  title: 'Irmão TabNews',
-  description: 'irmão TabNews',
-}
- 
+  title: "Irmão TabNews",
+  description: "irmão TabNews",
+};
+
 export default function RootLayout({ children }) {
- return (
+  return (
     <html lang="pt-br">
       <body>{children}</body>
     </html>
-  )
+  );
 }
