@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import database from "../../../../../infra/database.js";
+import database from "infra/database.js";
 
 /**
  * endpoint /api/status vai retornar a saude do nosso sistema 
