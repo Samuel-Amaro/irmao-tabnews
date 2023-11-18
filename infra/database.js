@@ -1,7 +1,6 @@
 import { Client } from "pg";
 
 async function query(queryObject) {
-  //TODO: colocar as informmações sensiveis de credencias em variaveis de ambientte
   const client = new Client({
     host: process.env.POSTGRES_HOST,
     port: process.env.POSTGRES_PORT,
