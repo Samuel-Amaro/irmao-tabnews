@@ -41,3 +41,12 @@ Parar o serviço de banco de dados
 ```bash
 docker compose -f infra/compose.yaml stop -d
 ```
+
+---
+
+Olhar status de container docker
+
+```bash
+docker ps # or
+docker ps --all
+```
